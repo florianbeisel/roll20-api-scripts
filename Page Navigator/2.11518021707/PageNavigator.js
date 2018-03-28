@@ -1235,7 +1235,7 @@
                             return p.get('name').replace(/\[[^\[\]]*\]/g,'').trim()===cmdDetails.details.page;
                         })[0].id;
                     }catch(err){
-                        sendChat('Page Navigator Error:','/w "'+who+'" no page was found by the name '+cmdDetails.details.page,null,{noarchive:true});
+                        sendChat('Page Navigator Error:','/w gm no page was found by the name '+cmdDetails.details.page,null,{noarchive:true});
                         return;
                     }
                 }else{
