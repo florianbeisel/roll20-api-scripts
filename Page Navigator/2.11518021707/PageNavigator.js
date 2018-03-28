@@ -1187,7 +1187,7 @@
                     }
                     break;
                 case _.isUndefined(cmdDetails.details.dMarker):
-                    if(_.contains(statusQuery,cmdDetails.details.dMarker)){
+                    if(_.contains(statusquery,cmdDetails.details.dMarker)){
                         state.PAGENAVIGATOR.dmarker = cmdDetails.details.dMarker;
                     }else{
                         //handling for incorrect dMarker
@@ -1567,7 +1567,7 @@
                     break;
                 case 'page':
                     mapPage(obj);
-                    loadfolders(obj);
+                    loadFolders(obj);
                     storeFolders();
                     break;
                 case 'player':
