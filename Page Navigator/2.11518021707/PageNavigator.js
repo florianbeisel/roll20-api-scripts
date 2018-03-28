@@ -1567,7 +1567,7 @@
                     break;
                 case 'page':
                     mapPage(obj);
-                    loadfolders(obj);
+                    loadFolders(obj);
                     storeFolders();
                     break;
                 case 'player':
